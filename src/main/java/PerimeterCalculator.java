@@ -21,7 +21,7 @@ public class PerimeterCalculator {
         Point prevPoint = points.getLast();
 
         for (Point point : points) {
-            // Obtener la distancia de los lados esto es una prueba
+            // Obtener la distancia de los lados
             // Ayuda: prevPoint.distancia(point)
             double distance = prevPoint.distancia(point);
             perimeter += distance;
